@@ -1,0 +1,94 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{1787FE1D-075E-9E68-7218-25F1BD1BBEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Api", "src\WorkoutLogger.Api\WorkoutLogger.Api.csproj", "{C3B53D0F-013E-4CBA-4F88-0848ACD22963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Infrastructure", "src\WorkoutLogger.Infrastructure\WorkoutLogger.Infrastructure.csproj", "{DD753DE3-6995-0B22-160D-E58AC046A87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Modules.Exercises", "src\WorkoutLogger.Modules.Exercises\WorkoutLogger.Modules.Exercises.csproj", "{542A142A-B3BE-C720-081D-390499179812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Modules.Progress", "src\WorkoutLogger.Modules.Progress\WorkoutLogger.Modules.Progress.csproj", "{101D207E-B14F-405D-6C52-E8B5A64E7E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Modules.Users", "src\WorkoutLogger.Modules.Users\WorkoutLogger.Modules.Users.csproj", "{AC030D6F-D318-8D8F-E07A-34BF5D3CC291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Modules.Workouts", "src\WorkoutLogger.Modules.Workouts\WorkoutLogger.Modules.Workouts.csproj", "{3D029A29-6F6F-2CEA-276E-0D539CFE90A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Shared", "src\WorkoutLogger.Shared\WorkoutLogger.Shared.csproj", "{9336BC8E-EF88-C022-0AEF-8157D321D342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.AppHost", "src\WorkoutLogger.AppHost\WorkoutLogger.AppHost.csproj", "{81B7E172-DE1F-B93D-3EAB-D869AE5BA445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.ServiceDefaults", "src\WorkoutLogger.ServiceDefaults\WorkoutLogger.ServiceDefaults.csproj", "{5122E210-5472-B475-DF93-AF3598958557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutLogger.Mobile", "apps\WorkoutLogger.Mobile\WorkoutLogger.Mobile.csproj", "{D7444F71-D483-F5F4-3236-664469E23EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3B53D0F-013E-4CBA-4F88-0848ACD22963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B53D0F-013E-4CBA-4F88-0848ACD22963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B53D0F-013E-4CBA-4F88-0848ACD22963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B53D0F-013E-4CBA-4F88-0848ACD22963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD753DE3-6995-0B22-160D-E58AC046A87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD753DE3-6995-0B22-160D-E58AC046A87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD753DE3-6995-0B22-160D-E58AC046A87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD753DE3-6995-0B22-160D-E58AC046A87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542A142A-B3BE-C720-081D-390499179812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542A142A-B3BE-C720-081D-390499179812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542A142A-B3BE-C720-081D-390499179812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542A142A-B3BE-C720-081D-390499179812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101D207E-B14F-405D-6C52-E8B5A64E7E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101D207E-B14F-405D-6C52-E8B5A64E7E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101D207E-B14F-405D-6C52-E8B5A64E7E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101D207E-B14F-405D-6C52-E8B5A64E7E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC030D6F-D318-8D8F-E07A-34BF5D3CC291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC030D6F-D318-8D8F-E07A-34BF5D3CC291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC030D6F-D318-8D8F-E07A-34BF5D3CC291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC030D6F-D318-8D8F-E07A-34BF5D3CC291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D029A29-6F6F-2CEA-276E-0D539CFE90A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D029A29-6F6F-2CEA-276E-0D539CFE90A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D029A29-6F6F-2CEA-276E-0D539CFE90A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D029A29-6F6F-2CEA-276E-0D539CFE90A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9336BC8E-EF88-C022-0AEF-8157D321D342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336BC8E-EF88-C022-0AEF-8157D321D342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336BC8E-EF88-C022-0AEF-8157D321D342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336BC8E-EF88-C022-0AEF-8157D321D342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B7E172-DE1F-B93D-3EAB-D869AE5BA445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B7E172-DE1F-B93D-3EAB-D869AE5BA445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B7E172-DE1F-B93D-3EAB-D869AE5BA445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B7E172-DE1F-B93D-3EAB-D869AE5BA445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5122E210-5472-B475-DF93-AF3598958557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5122E210-5472-B475-DF93-AF3598958557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5122E210-5472-B475-DF93-AF3598958557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5122E210-5472-B475-DF93-AF3598958557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7444F71-D483-F5F4-3236-664469E23EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7444F71-D483-F5F4-3236-664469E23EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7444F71-D483-F5F4-3236-664469E23EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7444F71-D483-F5F4-3236-664469E23EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3B53D0F-013E-4CBA-4F88-0848ACD22963} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{DD753DE3-6995-0B22-160D-E58AC046A87D} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{542A142A-B3BE-C720-081D-390499179812} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{101D207E-B14F-405D-6C52-E8B5A64E7E99} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{AC030D6F-D318-8D8F-E07A-34BF5D3CC291} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3D029A29-6F6F-2CEA-276E-0D539CFE90A1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{9336BC8E-EF88-C022-0AEF-8157D321D342} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{81B7E172-DE1F-B93D-3EAB-D869AE5BA445} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5122E210-5472-B475-DF93-AF3598958557} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D7444F71-D483-F5F4-3236-664469E23EAC} = {1787FE1D-075E-9E68-7218-25F1BD1BBEAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {576D9209-A514-442B-9737-C521C01429A4}
+	EndGlobalSection
+EndGlobal

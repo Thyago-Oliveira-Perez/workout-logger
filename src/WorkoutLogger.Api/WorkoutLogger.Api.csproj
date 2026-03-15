@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkoutLogger.Modules.Workouts\WorkoutLogger.Modules.Workouts.csproj" />
+    <ProjectReference Include="..\WorkoutLogger.Modules.Exercises\WorkoutLogger.Modules.Exercises.csproj" />
+    <ProjectReference Include="..\WorkoutLogger.Modules.Users\WorkoutLogger.Modules.Users.csproj" />
+    <ProjectReference Include="..\WorkoutLogger.Modules.Progress\WorkoutLogger.Modules.Progress.csproj" />
+    <ProjectReference Include="..\WorkoutLogger.Infrastructure\WorkoutLogger.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
